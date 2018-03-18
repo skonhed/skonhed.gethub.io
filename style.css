@@ -1,0 +1,38 @@
+body{
+	background-color: #dcdcdc;
+	margin:0;
+	font-family: Helvetica, sans-serif;
+}
+
+h1{
+	background-color: #4d7198;
+	background-size:100%;
+	color:white;
+	text-align:center;
+}
+
+#info{
+	font-size: small;
+	font-weight: 100;
+}
+.random{
+    padding: 8px 16px 8px;
+    margin: 0;
+    font-size: 13px;
+    /*display: inline-block;*/
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
