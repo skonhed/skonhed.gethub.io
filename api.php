@@ -5,6 +5,7 @@ $count="100"; // Количество записей, которое необх�
 $api = file_get_contents("http://api.vk.com/method/wall.get?owner_id={$wall_id}&count={$count}");
 $wall = json_decode($api,true);
 foreach ($wall['response'] as $item => $result) {
-  echo $result['text'].'<hr/>';
+  fopen("file.txt", "w");
+  fwrite ($file, $result[id]);
 }
 ?>
