@@ -4,17 +4,26 @@ body{
 	font-family: Helvetica, sans-serif;
 }
 
-h1{
-	background-color: #4d7198;
-	background-size:100%;
-	color:white;
-	text-align:center;
+.header {
+	position: relative;
+	display: block; /* Для старых браузеров */
+    border-bottom-width: 5px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: black; /* Цвет линии внизу */
+    border-radius: 0 0 20px 20px;	
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+	min-width: 10%;
+	bottom: 5px;
+	z-index:-1;
 }
 
 #info{
 	font-size: small;
 	font-weight: 100;
 }
+
 .random{
     padding: 8px 16px 8px;
     margin: 0;
@@ -36,3 +45,18 @@ h1{
     border-radius: 4px;
     box-sizing: border-box;
  }
+
+.random:active {
+    background-color: #4872a3;
+    padding-top: 8px;
+    padding-bottom: 7px;
+ }
+
+.random:hover {
+ 	background-color: #5b88bd;
+    text-decoration: none;
+ }
+
+hr {
+	border: 1px solid #49678d;
+}
