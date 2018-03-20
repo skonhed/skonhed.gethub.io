@@ -2,6 +2,7 @@ body{
 	background-color: #dcdcdc;
 	margin:0;
 	font-family: Helvetica, sans-serif;
+	line-height: 25px;
 }
 
 .header {
@@ -19,9 +20,19 @@ body{
 	z-index:-1;
 }
 
-#info{
+.info{
 	font-size: small;
 	font-weight: 100;
+}
+
+.since{
+	font-size: 10;
+	line-height: 1px;
+}
+
+.footer{
+	height: auto;
+	max-width: 10%
 }
 
 .random{
@@ -46,15 +57,15 @@ body{
     box-sizing: border-box;
  }
 
-.random:active {
-    background-color: #4872a3;
-    padding-top: 8px;
-    padding-bottom: 7px;
- }
-
 .random:hover {
  	background-color: #5b88bd;
     text-decoration: none;
+ }
+
+.random:active {
+    background-color: #49678d;
+    padding-top: 8px;
+    padding-bottom: 7px;
  }
 
 hr {
